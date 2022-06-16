@@ -1,0 +1,55 @@
+body{
+    background: hsl(0, 100%, 74%) ;
+    background-image: url('images/bg-intro-desktop.png');
+    font-size: 16px;
+    color: white;
+    
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    height: 600px;
+    justify-content: space-around;
+    
+}
+
+
+button{
+    background: hsl(154, 59%, 51%);
+    width: 350px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+a{
+    color: red
+}
+ .terms{
+    color: hsl(246, 25%, 77%);
+}
+input{
+    margin-bottom: 8px;
+    width: 340px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    
+}
+
+form{
+    background: white;
+    padding: 30px 20px;
+    border-radius: 8px;
+
+}
+
+h3{
+    background: hsl(248, 32%, 49%);
+    width: 400px;
+    padding: 7px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
