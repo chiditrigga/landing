@@ -53,3 +53,39 @@ h3{
     border-radius: 5px;
     text-align: center;
 }
+
+@media all and (max-width:375px){
+    body{
+        background-image: url('images/bg-intro-mobile.png');
+        
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .left{
+        margin-top: 100px;
+        margin-left: 20px;
+        font-size: 19px;
+    }
+    .h3{
+        width: 300px;
+        margin-left: 0px;
+        padding: 19px;
+    }
+    h1{
+        margin-left: 20px;
+    }
+    .form{
+        width: 300px;
+        
+    }
+    input{
+        width: 290px;
+    }
+    button{
+        width: 300px;
+        padding: 20px;
+    }
+}
