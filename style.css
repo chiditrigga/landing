@@ -11,7 +11,6 @@ body{
     align-items: center;
     height: 600px;
     justify-content: space-around;
-    
 }
 
 
@@ -31,11 +30,12 @@ a{
     color: hsl(246, 25%, 77%);
 }
 input{
-    margin-bottom: 8px;
+    margin-bottom: 15px;
     width: 340px;
     height: 30px;
     border-radius: 5px;
     border: 1px solid black;
+    
     
 }
 
@@ -43,6 +43,8 @@ form{
     background: white;
     padding: 30px 20px;
     border-radius: 8px;
+    
+    
 
 }
 
@@ -52,6 +54,11 @@ h3{
     padding: 7px 10px;
     border-radius: 5px;
     text-align: center;
+    
+    
+}
+.left{
+    width: 400px;
 }
 
 @media all and (max-width:375px){
@@ -68,6 +75,7 @@ h3{
         margin-top: 100px;
         margin-left: 20px;
         font-size: 19px;
+        width: 350px;
     }
     .h3{
         width: 300px;
@@ -79,6 +87,7 @@ h3{
     }
     .form{
         width: 300px;
+        margin-bottom: 20px;
         
     }
     input{
@@ -88,4 +97,8 @@ h3{
         width: 300px;
         padding: 20px;
     }
+    p{
+        margin-left: 2px;
+    }
+    
 }
