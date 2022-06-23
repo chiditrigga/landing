@@ -61,7 +61,7 @@ h3{
     width: 400px;
 }
 
-@media all and (max-width:375px){
+@media all and (max-width:600px){
     body{
         background-image: url('images/bg-intro-mobile.png');
         
